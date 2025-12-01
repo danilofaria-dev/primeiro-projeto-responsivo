@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    margin: 44px 0 0 76px;
+}
+
+.link-header {
+    margin-right: 23px;
+    font-weight: 600;
+    color: #989D9C;
+    cursor: pointer;
+    font-size: 24px;
+    transition: color 0.2s ease-in-out;
+}
+
+.link-header:hover {
+    color: #665AE1;
+}
+
+.button-header {
+    background: #665AE1;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+    transition: 0.1s ease;
+}
+
+.button-header:hover {
+    background-color: #352F80;
+}
+
+.button-header:active {
+    transform: scale(0.95);
+}
+
+.container-left {
+    display: inline-block;
+    position: relative;
+    top: 144px;
+    left: 125px;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+}
+
+.container-right {
+    display: inline-block;
+    width: 515px;
+    position: relative;
+    left: 240px;
+    top: 50px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    color: #515151;
+
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 58px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-container {
+    width: 239px;
+    height: 64px;
+    background: #ADFF00;
+    color: #000000;
+    border: none;
+    font-weight: 700;
+    font-size: 28px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    transition: 0.1s ease;
+}
+
+.button-container:hover {
+    background-color: #79AA00;
+}
+
+.button-container:active {
+    transform: scale(0.95);
+}
+
+@media screen and (max-width: 860px) {
+    header {
+        display: none;
+    }
+
+    .container-left {
+
+        display: block;
+        width: 100%;
+        position: static;
+        top: 0;
+        left: 0;
+        height: 50%;
+        padding: 30px;
+        margin-top: 100px;
+    }
+    /* Sempre colocar width e height para a imagem ser responsiva */
+    img {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    .container-right {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: static;
+        left: 0;
+        top: 0;
+        text-align: center;
+    }
+
+    p {
+        display: none;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .button-container {
+      margin-top: 25px;
+        
+    }
+
+
+
+
+
+}
